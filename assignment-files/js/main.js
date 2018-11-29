@@ -2,22 +2,22 @@
 
 
 /* TASK 1 -- Show/Hide Nav */
-// document.querySelector('.btn-toggle-menu').addEventListener("click", function(){
-//
-//   // document.querySelector('.nav-menu')remove();
-//
-//   if(document.querySelector('.answer-box nav').className === 'nav-menu'){
-//
-//     document.querySelector('.answer-box').className = 'nav-menu-hidden';
-//
-//     document.querySelector('.btn-toggle-menu').inner.HTML = hide Nav
-//
-//   } else {
-//
-//     document.querySelector.className = 'nav-menu'
-//     }
-//
-// }
+
+document.querySelector(".btn-toggle-menu").addEventListener('click',function(){
+
+  if(document.querySelector(".answer-box nav").className === 'nav-menu'){
+
+    document.querySelector(".answer-box nav").className = 'nav-menu-hidden';
+
+    document.querySelector(".btn-toggle-menu").innerHTML = "show now";
+
+  } else{
+
+    document.querySelector(".answer-box nav").className = 'nav-menu';
+
+    document.querySelector(".btn-toggle-menu").innerHTML = "hide now";
+	}
+ })
 
 /* TASK 2 -- Select/Deslect an Icon */
 //seleccionamos a todos los que tienen la clase .option
